@@ -1,10 +1,10 @@
 # ritunjaya-saxena-wasserstoff-BackendTask
 
 #local installation
-1.to install this project locally we required to get clone url from github from projects repository then 2.2.running git clone url command in vs code.
-3.use npm i command to install all dependencies
-4.use npm run start:dev commnad to run the application
-5.person who is installing this application locally must use his own .env keys
+1.to install this project locally we required to get clone url from github from projects repository then running git clone url command in vs code.
+2.use npm i command to install all dependencies
+3.use npm run start:dev commnad to run the application
+4.person who is installing this application locally must use his own .env keys
 
 #Database
 1.used postgreSQL for storing the data. which having 2 tables Users and Images
@@ -18,10 +18,10 @@
 2.used google cloudvision api for getting automatic annotations for images
 
 #middlewares
-1.having 2 middleware files. one as authMiddleware.js for cheking authentication for users and checking 2.2.2.admin roles and another fileMiddleware.js for processing data of upload images
+1.having 2 middleware files. one as authMiddleware.js for cheking authentication for users and checking admin roles and another fileMiddleware.js for processing data of upload images
 
 #utilities
-1.used json2csv package for converting json data to csv and used js2xmlparser package for converting json 2.data to xml formate in utils/converter.js
+1.used json2csv package for converting json data to csv and used js2xmlparser package for converting json data to xml formate in utils/converter.js
 
 #apis
 1.http://localhost:3000/user/signup api for doing signup for both user and admin
